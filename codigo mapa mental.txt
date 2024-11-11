@@ -1,0 +1,72 @@
+@startmindmap
+!define RIGHT_TO_LEFT true
+skinparam mindmapDirection RightLeft
+
+-[#ADD8E6] Trabalho Engenharia
+--[#FFFFFF] Stakeholders
+---[#FFFFFF] Proprietários Estacionamento
+---[#FFFFFF] Usuários Estacionamento
+----[#FFFFFF] Motoristas
+---[#FFFFFF] Equipe Segurança
+---[#FFFFFF] Equipe Manutenção
+--[#FFDAB9] Questionário
+---[#FFDAB9] Funcionamento Ideal
+----[#FFDAB9] Entrada Saída
+----[#FFDAB9] Veículos Estacionamento
+---[#FFDAB9] Formas Pagamento
+----[#FFDAB9] PIX
+----[#FFDAB9] Cartão Crédito
+----[#FFDAB9] Cartão Débito
+---[#FFDAB9] Integração Sistemas
+----[#FFDAB9] Pagamento Vagas
+---[#FFDAB9] Desafios Utilização
+----[#FFDAB9] Encontrar Vagas
+----[#FFDAB9] Filas Longas
+---[#FFDAB9] Acessibilidade Tecnologia
+----[#FFDAB9] Sinalização Processos
+---[#FFDAB9] Reservar Vagas
+----[#FFDAB9] Antes Entrada
+----[#FFDAB9] Melhor Prática
+--[#FFFFE0] Brainstorming
+---[#FFFFE0] Sensor Detecção
+----[#FFFFE0] Placas Automáticas
+---[#FFFFE0] QR Code
+----[#FFFFE0] Pagamento Leitura
+---[#FFFFE0] Sinalização Vaga
+----[#FFFFE0] Ocupada ou Livre
+++[#98FB98] Documentação Requisitos
++++[#98FB98] Descrição Sistema
+++++[#98FB98] Controle Automação
+++++[#98FB98] Vagas Pagamentos
++++[#98FB98] Requisitos Funcionais
+++++[#98FB98] Entrada Saída
+++++[#98FB98] Reconhecimento Placas
++++[#98FB98] Requisitos Não Funcionais
+++++[#98FB98] Rápido
+++++[#98FB98] Intuitivo
+++++[#98FB98] Escalável
+++[#FFB6C1] Descrição Caso
++++[#FFB6C1] Fluxo Principal
+++++[#FFB6C1] Motorista aproxima Entrada
+++++[#FFB6C1] Pagamento QR
+++++[#FFB6C1] Cancela se Levanta
+++++[#FFB6C1] Buscar Vagas
+++++[#FFB6C1] Apresentar Cupom Pago
+++++[#FFB6C1] Sistema Verifica Pagamento
+++++[#FFB6C1] Pagamento Aprovado
++++[#FFB6C1] Fluxos Alternativos
+++++[#FFB6C1] Pagamento Rejeitado
+++++[#FFB6C1] Novo Pagamento
+++[#D3D3D3] Diagrama Caso
++++[#D3D3D3] Atores
+++++[#D3D3D3] Motorista
+++++[#D3D3D3] Sensor
++++[#D3D3D3] Casos de Uso
+++++[#D3D3D3] Aproximar Cancela
+++++[#D3D3D3] Abrir Cancela
+++++[#D3D3D3] Fechar Cancela
+++++[#D3D3D3] Entrar Estacionamento
+++++[#D3D3D3] Sair Estacionamento
+++++[#D3D3D3] Gerar QR Code
+++++[#D3D3D3] Efetuar Pagamento
+@endmindmap
