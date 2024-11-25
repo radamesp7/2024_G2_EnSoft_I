@@ -1,0 +1,23 @@
+@startuml
+node "Servidor Web" {
+    component "Frontend"
+}
+
+node "Servidor de Aplicação" {
+    component "Backend"
+}
+
+node "Banco de Dados" {
+    database "Sistema de Dados"
+}
+
+node "Estação do Usuário" {
+    [Interface Web]
+    [Interface Mobile]
+    [Interface Administrador]
+}
+
+"Servidor Web" --> "Servidor de Aplicação"
+"Servidor de Aplicação" --> "Banco de Dados"
+"Estação do Usuário" --> "Servidor Web"
+@enduml
