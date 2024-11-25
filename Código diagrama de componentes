@@ -1,0 +1,17 @@
+@startuml
+component "Sistema de Gerenciamento de Atividades" {
+    [Frontend] --> [Backend]
+    [Backend] --> [Banco de Dados]
+    [Backend] --> [Relatório]
+}
+
+package "Interfaces" {
+    [Interface Web]
+    [Interface Mobile]
+    [Interface Administrador]
+}
+
+[Frontend] --> [Interface Web]
+[Frontend] --> [Interface Mobile]
+[Frontend] --> [Interface Administrador]
+@enduml
