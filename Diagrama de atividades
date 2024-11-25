@@ -1,0 +1,24 @@
+@startuml
+start
+
+:Consultar Tabela de Atividades;
+if (Nova Tarefa?) then (Sim)
+    :Registrar Nova Tarefa;
+    :Adicionar Tarefa na Tabela;
+else (Não)
+    :Revisar Atividades;
+    if (Atualização Necessária?) then (Sim)
+        :Selecionar Atividade;
+        :Atualizar Informações da Atividade;
+    else (Não)
+        if (Tarefa Concluída?) then (Sim)
+            :Alterar Status para "Concluído";
+        else (Não)
+            :Excluir Atividade se Desnecessária;
+        endif
+    endif
+endif
+
+:Finalizar Revisão;
+stop
+@enduml
